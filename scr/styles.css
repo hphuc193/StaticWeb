@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif; /* Thay đổi kiểu chữ */
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .clock {
+    font-size: 118px; /* Thay đổi kích cỡ của đồng hồ */
+    color: #000000;
+  }
+  
+  #numContainer {
+    font-size: 244px; /* Thay đổi kích cỡ của số 20 */
+    margin-top: 20px;
+    color: #ff0000;
+    opacity: 0;
+    transition: opacity 2s ease;
+  }
+  
